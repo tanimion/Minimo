@@ -134,3 +134,111 @@ nav ul li a {
   color: #626262;
   font-size: 14px;
 }
+
+.newsletter {
+  background-color: #f0f0f0;
+  margin: auto;
+  margin: 50px 0;
+  padding: 50px 0;
+}
+
+.newsletter-content {
+  width: 23%;
+  margin: auto;
+  position: relative;
+}
+
+.newsletter-content h1 {
+  color: #626262;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.newsletter-content input {
+  border: none;
+  border-bottom: 1px solid #626262;
+  width: 100%;
+  background: transparent;
+  margin-top: 60px;
+}
+
+.newsletter-content input:focus {
+  outline: none;
+}
+
+.newsletter-content input::placeholder {
+  color: #626262;
+}
+
+.icon {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.load {
+  text-align: center;
+  padding: 100px 0;
+}
+
+.load input {
+  padding: 20px 30px;
+  border: 1px solid black;
+  font-size: 20px;
+  color: #626262;
+  background: transparent;
+  cursor: pointer;
+}
+
+footer {
+  background: #f0f0f0;
+  padding: 32px 0;
+}
+
+.footer {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.terms {
+  width: 30%;
+  float: left;
+}
+
+.terms ul {
+  list-style: none;
+  overflow: hidden;
+}
+
+.terms ul li {
+  float: left;
+  margin-right: 30px;
+}
+.terms ul li a {
+  text-decoration: none;
+  color: #626262;
+}
+
+.social-icon {
+  width: 30%;
+  float: right;
+  overflow: hidden;
+  /* padding: 25px 0; */
+}
+
+.social-icon ul {
+  list-style: none;
+  overflow: hidden;
+  float: right;
+}
+
+.social-icon ul li {
+  float: left;
+  margin-left: 25px;
+}
+
+.social-icon ul li a {
+  text-decoration: none;
+  color: #626262;
+}
